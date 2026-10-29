@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "AZEM Портфолио",
+    "slug": "azem-portfolio-admin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "site.azem-smm.admin",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Доступ нужен, чтобы загружать фотографии и видео в портфолио.",
+        "NSPhotoLibraryAddUsageDescription": "Доступ нужен только для выбора материалов, которые вы хотите загрузить в портфолио."
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Разрешите доступ к фото и видео, чтобы загружать материалы в портфолио.",
+          "microphonePermission": false
+        }
+      ],
+      "expo-secure-store"
+    ]
+  }
+}

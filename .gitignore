@@ -1,0 +1,17 @@
+node_modules/
+.idea/
+.expo/
+.expo-user-home/
+dist/
+dist-ios/
+web-build/
+ios/
+android/
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
